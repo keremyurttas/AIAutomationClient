@@ -105,7 +105,8 @@ export default function GenerateCaseForm({ onGenerate }: FormProps) {
       <Button
         key={index}
         variant="outline"
-        onClick={() => form.reset(example)}
+        type="button"
+        onClick={(e) => {form.reset(example); e.preventDefault()}}
       >
         {example.title}
       </Button>
