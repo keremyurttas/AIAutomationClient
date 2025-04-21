@@ -8,6 +8,7 @@ import { Button } from "./ui/button";
 import { FormField, FormItem, FormLabel, FormControl, FormDescription, FormMessage, Form } from "./ui/form";
 import { Input } from "./ui/input";
 import { on } from "events";
+import { Textarea } from "./ui/textarea";
 
 type FormProps = {
     onGenerate: (cases: any) => void
@@ -99,7 +100,7 @@ export default function GenerateCaseForm({ onGenerate }: FormProps) {
               <FormItem className="w-full max-w-[40vw]">
                 <FormLabel>Açıklama</FormLabel>
                 <FormControl>
-                  <Input disabled={isLoading} placeholder="login testleri" {...field} />
+                  <Textarea disabled={isLoading} placeholder="login testleri" {...field} />
                 </FormControl>
                 <FormDescription>
                   İstediğiniz test senaryolarını açıklayın
