@@ -13,7 +13,7 @@ export default function CaseHandler() {
     <>
       {isLoading && <Loader />}
       {cases && cases.length > 0 ? (
-        <CasesDisplayer emitLoading={(isLoading) => setIsLoading(isLoading)} cases={cases} />
+        <CasesDisplayer onGoBack={()=>setCases(null)} emitLoading={(isLoading) => setIsLoading(isLoading)} cases={cases} />
       ) : (
         <GenerateCaseForm onGenerate={(cases) => setCases(cases)} />
       )}

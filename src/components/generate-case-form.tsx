@@ -28,10 +28,10 @@ const exampleCases = [
     number_of_cases: 1
   },
   {
-    title: "Turkcell.com Navbar Testleri",
+    title: "Turkcell.com Sepet Testi",
     url: "https://www.turkcell.com.tr/",
-    description: "Navbar testleri",
-    number_of_cases: 12
+    description: "Pasaj'a gir, sepete bir tane Iphone 15 Pro Max 256 GB ekle. Üye olman gerekirse, üye olmadan devam et. Ürünün sepete başarılı bir şekilde eklenip eklenmediğini kontrol et.",
+    number_of_cases: 1
   }
 ];
 
