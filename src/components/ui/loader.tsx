@@ -17,7 +17,7 @@ export default function FullPageLoader() {
       {/* Foreground content */}
       <div className="relative z-10 flex flex-col items-center gap-10">
         <h4 className="text-white text-4xl">
-          Test Chromium üzerinden çalıştırılıyor...
+        Senaryonuz, Chromium üzerinden çalıştırılıyor...
         </h4>
         <Loader2 className="h-10 w-10 animate-spin text-white" />
       </div>

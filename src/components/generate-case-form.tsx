@@ -22,9 +22,25 @@ const exampleCases = [
     number_of_cases: 1
   },
   {
-    title: "Dummy Data ile Jira Issue Testi",
-    url: "https://example.com/register",
-    description: "'KULLANICI_ADINIZ' kullanıcı adını ve 'SIFRENIZ' şifresini kullanarak giriş yap, navbardan create butonuna bas. Açılan modaldan projesi 'ICT REQUEST' tipi de 'Request' olan bir issue oluştur. İhtiyacın olan bilgileri seçenekler arasında seç veya dummy textler ile doldur.",
+    title: "Maya Testi",
+    url: "https://mayasahastable.turkcell.com.tr/mayanext/loginui/login.xhtml",
+    description: `
+
+ 'MAYA.FCMX'  kullanıcı adı ve 'Test1234' şifresiyle giriş yap.
+iki adet seçim var. 'Organizasyon' seçimini 'ADANA-TBO' olarak yap ve sonraki adıma geç. 'Alt organizasayon' seçim kısmını açmak için sağdaki butona tıkla, açılan penceredeki tabloda en üstteki seçenek olan 'ADANA-TBO' işaretleyerek 'Bayii seç' butonuna bas. Seçimleri yaptıktan sonra onayla butonuna bas ve devam et.
+Giriş yaptıktan sonra navbarın üstündeki 'Turkcell Maya' seçeneğini 'Sol Maya' ile değiştir.
+'Sol Maya' ekranında olduğundan emin ol. Arama kısmına '61044919' yazıp arat. Sayfanın yüklenmesini bekle.
+Sayfa açıldıktan sonra arama kısmına 'Taşınma Ms' yazarak arat, ve tıklayarak sayfaya git.
+Sayfa yüklendikten sonra sepet kısmınn altındaki 'Devam et' butonuna bas.
+Lokasyon sorgulama kısmında 'BBK arama' kısmına tıkla, 'BBK Kodu' kısmına '43332636' gir ve 'Sorgula' butonuna bas.
+Detaylar geldikten sonra 'Bu adres için altyapı sorgula' butonuna bas.
+'Altyapı bilgileri' kısmına 'Ortak Fiber' seçeneğini seç. 'Devam et' butonuna bas.
+Sayfa yüklendikten sonra 'Mernis sorgusu yap' butonuna bas. Sorgu tamamlandıktan sonra sepetin altındaki 'Devam et' butonuna bas.
+Açılan sayfada 'Kesintili/Kesintisiz' kısmından 'kesintisiz' seç. 'Anlık/İleri tarihli' kısmından 'İleri Tarihli' kısmını seç. 'İleri tarihli değişiklik tarihi' kısmına '05-06-2025' yaz. 'Kampanyaları ara' butonuna bas.
+Açılan kampanyalardan 'Fiber Limitsiz Hız Şöleni' kampanyasını seç. 'Devam et' butonuna bas.
+'Data Ürünleri' kısmından 'Fiber Limitsiz Hız Şöleni HSG' yazısının sağındaki '+' butonuna bas. Açılan pencered '25 Mbpsye kadar Limitsiz' seç. 'Seç ve Devam et' tıkla. 'Güvenli İnternet hizmeti almak istemiyorum' seçeneğini seç. 'Seç ve sepete ekle' butonuna bas.
+Sepetin altındaki 'Devam et' butonuna bas.
+'Siparişi onayla' butonuna bas.`,
     number_of_cases: 1
   },
   {
